@@ -1,0 +1,60 @@
+body {
+  background-color: darkseagreen;
+}
+.row {
+  height: 300px;
+  width: 600px;
+  /* border: 1px solid white; */
+  box-shadow: 8px 8px 15px #e4e4e4;
+  border-radius: 9px;
+  margin: 25px;
+  background-color: white;
+  /* padding:250px; */
+  overflow-x: hidden;
+  /* box-shadow:  1px 1px 1px 1px black; */
+  background-color: seagreen;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 25px;
+  overflow-y: hidden;
+  padding-bottom: 25px;
+}
+button:not(:disabled) {
+  cursor: pointer;
+  width: 215px;
+  height: 50px;
+}
+.h1,
+h1 {
+  font-size: calc(1.375rem + 1.5vw);
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+#btn {
+  border-radius: 50px;
+}
+#weight {
+  border-radius: 50px;
+}
+#height {
+  border-radius: 50px;
+}
+@media only screen and (max-width: 904px) {
+  .testimonial {
+    height: 600px;
+    width: 340px;
+    border: 1px solid white;
+    box-shadow: 8px 8px 15px #e4e4e4;
+    border-radius: 9px;
+    margin: 25px;
+    background-color: white;
+    /* padding:250px; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* box-shadow:  1px 1px 1px 1px black; */
+  }
+}
